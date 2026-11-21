@@ -1,6 +1,6 @@
-# {{APP_NAME}}
+# -Sgn110jiC0
 
-- **Application Name:** {{APP_NAME}}
-- **Frontend Repository:** `{{FRONTEND_REPO}}`
-- **Live Pages URL:** [{{LIVE_URL}}]({{LIVE_URL}})
+- **Application Name:** -Sgn110jiC0
+- **Frontend Repository:** `-Sgn110jiC0_Frontend`
+- **Live Pages URL:** [https://aviv-cyber.github.io/-Sgn110jiC0_Frontend/](https://aviv-cyber.github.io/-Sgn110jiC0_Frontend/)
 - **Architecture:** VaultDB (AES-GCM Encrypted Endpoint + Cloudflare Worker Proxy)
