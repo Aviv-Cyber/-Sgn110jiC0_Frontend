@@ -48,7 +48,7 @@
   </div>
 
   <script>
-    const SALTED_VAULT = {"salt":"PLACEHOLDER","iv":"PLACEHOLDER","cipher":"PLACEHOLDER"};
+    const SALTED_VAULT = {"salt":"mHbDVfBU6SB0oeA4yqBnrA==","iv":"Tz8T8yhEe2LTxw8r","cipher":"L8D3/gjc4dk9CdH3jfMjyCn5rolbeR6jDPe3WJA4NyhhVNhzz/pEctvvoJFSvtT5yS4LGM4U3qhuxvy4jtutsXxXBNBy1Hy8h4J9jPe3PhIO4+ZHLRTP7nLN1m8omyFB"};
     let currentItems = [];
 
     const VaultDB = {
@@ -163,5 +163,7 @@
       }
     });
   </script>
+
+<script id="studio-app-auth-config">window.__STUDIO_APP_CONFIG__={"owner":"Aviv-Cyber","appSlug":"-Sgn110jiC0","backendRepo":"-Sgn110jiC0_Backend","frontendRepo":"-Sgn110jiC0_Frontend","workerUrl":"https://spring-poetry-11f4.avivyl1234.workers.dev","endpoint":"https://spring-poetry-11f4.avivyl1234.workers.dev/Aviv-Cyber/-Sgn110jiC0_Backend","saltedVault":{"salt":"mHbDVfBU6SB0oeA4yqBnrA==","iv":"Tz8T8yhEe2LTxw8r","cipher":"L8D3/gjc4dk9CdH3jfMjyCn5rolbeR6jDPe3WJA4NyhhVNhzz/pEctvvoJFSvtT5yS4LGM4U3qhuxvy4jtutsXxXBNBy1Hy8h4J9jPe3PhIO4+ZHLRTP7nLN1m8omyFB"},"saltedValue":"ad1de9ba7922701723a9167b41a3457dd22d326422a39517b63aba4000d6b264","passwordRawHashHex":"0ffe1abd1a08215353c233d6e009613e95eec4253832a761af28ff37ac5a150c","passwordHashHex":"65d31165764a215fd2ead59acd2a713c86b375d29497397be13152b6b3b0de54"};window.__STUDIO_VERIFY_APP_PASSWORD__=async function(candidate){const clean=String(candidate||'').trim();if(!clean)return false;const enc=new TextEncoder();const toHex=async(str)=>{const buf=await crypto.subtle.digest('SHA-256',enc.encode(str));return Array.from(new Uint8Array(buf),b=>b.toString(16).padStart(2,'0')).join('');};const rawHex=await toHex(clean);const slugHex=await toHex('-Sgn110jiC0:'+clean);const cfg=window.__STUDIO_APP_CONFIG__||{};return (cfg.passwordRawHashHex&&rawHex===cfg.passwordRawHashHex)||(cfg.passwordHashHex&&slugHex===cfg.passwordHashHex)||(cfg.saltedValue&&rawHex===cfg.saltedValue);};</script>
 </body>
 </html>
